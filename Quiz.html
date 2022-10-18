@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+	<html>
+		<head>
+			<title>Computer Quiz</title>
+			<link rel="stylesheet" type="text/css" href="Quiz.css">
+		</head>
+		<body>
+			<div id="Main">
+				<b><div id="Question">(<span id="JustQ">Q</span>) <span id="Que">Questions will appear here!</span></div></b>
+				<div id="Options">
+					<div id="Option1">(a) <span id="OpA" onclick="Check(1)">Option A</span></div>
+					<div id="Option2">(b) <span id="OpB" onclick="Check(2)">Option B</span></div>
+					<div id="Option3">(c) <span id="OpC" onclick="Check(3)">Option C</span></div>
+					<div id="Option4">(d) <span id="OpD" onclick="Check(4)">Option D</span></div>
+				</div>
+			</div>
+			<div id="Buttons"><b>
+				<div id="Exit" onclick="Exit()">Exit</div>
+				<div id="Next" onclick="NextX()">Next</div>
+				<div id="Previous" onclick="Previous()">Previous</div>
+			</b></div>
+			<div id="Header">
+				<b>Computer Quiz</b>
+			</div>
+			<div id="Footer">
+				Copyright @BRGodara | All rights reserved.
+			</div>
+			<div id="Results"><b>
+				<div id="Correct">CORRECT</div>
+				<div id="Incorrect">INCORRECT</div>
+			</b></div>
+			<script src="Quiz.js"> </script>
+		</body>
+	</html>
+
+
