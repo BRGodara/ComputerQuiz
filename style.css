@@ -1,0 +1,68 @@
+#Main{
+	height: 1380px;
+	width: 900px;
+	background: #80FFAF;
+	border: 3px solid black;
+	border-radius: 25px;
+	margin: 30px;
+	padding: 0;
+	box-sizing: border-box;
+	position: fixed;
+	left: 8px;
+	top: -3px;
+	display: black;
+}
+#Main #Main_Logo{
+	height: 300px;
+	width: 700px;
+	background: url("IMG_Logo.png");
+	background-size: 700px 300px;
+	padding: 0;
+	margin: 30px 90px;
+}
+#Main #Start_BTN{
+	display: block;
+	height: 250px;
+	width: 600px;
+	background: url("IMG_StartBTN.png");
+	background-size: 600px 250px;
+	padding: 0;
+	margin: 110px 150px 0;
+}
+#Main #Start_BTN:hover{
+	height: 240px;
+	width: 590px;
+	background: url("IMG_StartBTN.png");
+	background-size: 590px 240px;
+	padding: 0;
+	margin: 115px 155px 0;
+}
+#Main #AboutUS{
+	height: 460px;
+	width: 850px;
+	background: url("IMG_About.png");
+	background-size: 850px 460px;
+	padding: 0;
+	margin: 10px 20px 0;
+	border: 3px solid black;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+#Main #AboutUS_Title{
+	height: 80px;
+	width: 850px;
+	background: transparent;
+	padding: 0;
+	margin: 115px 20px 0;
+	border: 3px solid black;
+	border-radius: 10px;
+	box-sizing: border-box;
+	font-size: 55px;
+	text-align: center;
+	padding-top: 5px;
+	color: #3E7C55;
+}
+
+
+
+
